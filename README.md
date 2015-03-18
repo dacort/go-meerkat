@@ -80,6 +80,18 @@ And another example on social.meerkatapp.co/users/xxx/asdf?v=2
 
 ## Meerkat Resources
 
+### User Search
+Meerkat just added [just added](http://thenextweb.com/apps/2015/03/18/meerkat-makes-it-easier-to-follow-users-via-the-web/) user search. 
+The endpoint is https://social.meerkatapp.co/users/search?v=0.1 and requires a content-type header.
+
+`curl 'https://social.meerkatapp.co/users/search?v=2' -X PUT -H 'Content-Type: application/json' -d '{"username":"redbull"}'`
+
+    {
+      "result": [
+        "550099452400006f00a5277f"
+      ]
+    }
+
 ### Broadcast
 A Meerkat broadcast http://resources.meerkatapp.co/broadcasts/36aab946-661a-47af-a249-5d395659fd2c/summary
 
