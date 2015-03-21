@@ -149,7 +149,7 @@ video, including broadcaster, statistics, location and tweet ID.
       }
     }
 
-There's some sort of list of broadcast here, maybe trending?: http://channels.meerkatapp.co/broadcasts/
+There's some sort of list of broadcast here, it looks to be a list of broadcasts live now: http://channels.meerkatapp.co/broadcasts/
 
 ### Profile
 A Meerkat user profile https://resources.meerkatapp.co/users/550099452400006f00a5277f/profile?v=2
